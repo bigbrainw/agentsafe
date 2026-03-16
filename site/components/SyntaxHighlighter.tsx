@@ -22,11 +22,12 @@ export function Code({ code, language = "python", className = "", size = "base" 
         padding: "1rem",
         background: "transparent",
         fontSize: fontSizeMap[size],
+        fontFamily: "var(--font-geist-mono), 'Geist Mono', ui-monospace, 'Cascadia Code', 'SF Mono', Monaco, monospace",
       }}
-      codeTagProps={{ style: { fontFamily: "var(--font-geist-mono), monospace" } }}
+      codeTagProps={{ style: { fontFamily: "inherit" } }}
       showLineNumbers={false}
       PreTag="div"
-      className={className}
+      className={`agentsafe-code-block ${className}`.trim()}
     >
       {code}
     </SyntaxHighlighter>

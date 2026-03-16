@@ -21,6 +21,13 @@ body {
   font-family: var(--font-geist-sans), system-ui, sans-serif;
 }
 
+/* Ensure code blocks use Geist Mono consistently (localhost = deployed) */
+.agentsafe-code-block code,
+.agentsafe-code-block span,
+.agentsafe-code-block pre {
+  font-family: var(--font-geist-mono), "Geist Mono", ui-monospace, monospace !important;
+}
+
 /* Hero background with subtle dotted grid (dark) */
 .bg-hero {
   background-color: #000000;
