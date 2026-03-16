@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fafafa;
+  --foreground: #171717;
+  --primary: #7c3aed;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --max-width-340: 85rem;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+/* Hero background with subtle dotted grid */
+.bg-hero {
+  background-color: #f5f5f5;
+  background-image: radial-gradient(circle at 1px 1px, rgba(0, 0, 0, 0.08) 1px, transparent 0);
+  background-size: 24px 24px;
+}
