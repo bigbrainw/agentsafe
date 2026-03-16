@@ -1,0 +1,11 @@
+services:
+  jaeger:
+    image: jaegertracing/all-in-one:1.57
+    container_name: agentsafe-jaeger
+    restart: unless-stopped
+    ports:
+      - "16686:16686" # Jaeger UI
+      - "4317:4317"   # OTLP gRPC ingest
+      - "4318:4318"   # OTLP HTTP ingest
+    environment:
+      COLLECTOR_OTLP_ENABLED: "true"
