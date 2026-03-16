@@ -7,9 +7,12 @@ interface SyntaxHighlighterProps {
   code: string;
   language?: string;
   className?: string;
+  size?: "sm" | "base" | "lg";
 }
 
-export function Code({ code, language = "python", className = "" }: SyntaxHighlighterProps) {
+const fontSizeMap = { sm: "0.8125rem", base: "0.9375rem", lg: "1.0625rem" };
+
+export function Code({ code, language = "python", className = "", size = "base" }: SyntaxHighlighterProps) {
   return (
     <SyntaxHighlighter
       language={language}
@@ -18,7 +21,7 @@ export function Code({ code, language = "python", className = "" }: SyntaxHighli
         margin: 0,
         padding: "1rem",
         background: "transparent",
-        fontSize: "0.875rem",
+        fontSize: fontSizeMap[size],
       }}
       codeTagProps={{ style: { fontFamily: "var(--font-geist-mono), monospace" } }}
       showLineNumbers={false}
