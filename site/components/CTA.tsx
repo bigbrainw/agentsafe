@@ -13,7 +13,9 @@ export function CTA() {
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <Link
-            href="http://localhost:7862"
+            href="https://github.com/knhn1004/agentsafe/tree/main/examples"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-violet-600 px-6 py-3 text-white font-medium hover:bg-violet-700 transition-colors"
           >
             Get Started

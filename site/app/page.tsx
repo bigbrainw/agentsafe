@@ -1,6 +1,6 @@
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
-import { CodeBlock } from "@/components/CodeBlock";
+import { DynamicCodeBlock } from "@/components/DynamicCodeBlock";
 import { UseWith } from "@/components/UseWith";
 import { Features } from "@/components/Features";
 import { CTA } from "@/components/CTA";
@@ -14,7 +14,7 @@ export default function Home() {
       <div className="relative z-10">
         <Header />
         <Hero />
-        <CodeBlock />
+        <DynamicCodeBlock />
         <UseWith />
         <Features />
         <CTA />
