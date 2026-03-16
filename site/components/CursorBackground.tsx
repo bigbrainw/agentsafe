@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-const SPOT_RADIUS = 300;
+const SPOT_RADIUS = 500;
 
 export function CursorBackground() {
   const [position, setPosition] = useState<{ x: number; y: number } | null>(null);
@@ -41,8 +41,8 @@ export function CursorBackground() {
         style={{
           background: `radial-gradient(
             circle at center,
-            rgba(139, 92, 246, 0.12) 0%,
-            rgba(139, 92, 246, 0.04) 40%,
+            rgba(139, 92, 246, 0.2) 0%,
+            rgba(139, 92, 246, 0.06) 40%,
             transparent 70%
           )`,
         }}

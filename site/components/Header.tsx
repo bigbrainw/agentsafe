@@ -7,7 +7,7 @@ export function Header() {
   return (
     <nav className="fixed top-2 right-0 left-0 sm:top-0 z-[70] transition-all duration-500 ease-in-out p-0">
       <div className="mx-auto flex items-center justify-between border transition-all duration-400 ease-out w-full max-w-[85rem] border-transparent bg-transparent px-6 py-0 pt-1.5 shadow-none backdrop-blur-none">
-        <Link href="/" className="flex items-center gap-2 font-semibold text-foreground">
+        <Link href="/" className="flex items-center gap-2 font-semibold text-zinc-100">
           <ShieldIcon className="h-6 w-6" />
           agentsafe
         </Link>
@@ -17,7 +17,7 @@ export function Header() {
             href="https://github.com/knhn1004/agentsafe"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm font-medium text-zinc-600 hover:text-foreground transition-colors"
+            className="text-sm font-medium text-zinc-400 hover:text-zinc-100 transition-colors"
           >
             GitHub
           </Link>
@@ -25,22 +25,20 @@ export function Header() {
             href="https://pypi.org/project/agentsafe/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm font-medium text-zinc-600 hover:text-foreground transition-colors"
+            className="text-sm font-medium text-zinc-400 hover:text-zinc-100 transition-colors"
           >
             PyPI
           </Link>
           <Link
-            href="https://github.com/knhn1004/agentsafe/blob/main/README.md"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm font-medium text-zinc-600 hover:text-foreground transition-colors"
+            href="/docs/quickstart"
+            className="text-sm font-medium text-zinc-400 hover:text-zinc-100 transition-colors"
           >
             Docs
           </Link>
         </div>
 
         <button
-          className="md:hidden text-foreground focus-visible:ring-primary/50 relative z-20 flex h-10 w-10 items-center justify-center rounded-full transition-all duration-200 hover:bg-white/10 focus:outline-none focus-visible:ring-2 active:scale-95"
+          className="md:hidden text-zinc-100 focus-visible:ring-primary/50 relative z-20 flex h-10 w-10 items-center justify-center rounded-full transition-all duration-200 hover:bg-white/10 focus:outline-none focus-visible:ring-2 active:scale-95"
           aria-label="Open menu"
         >
           <Menu className="h-6 w-6" />

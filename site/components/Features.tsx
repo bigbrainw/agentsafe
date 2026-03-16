@@ -68,10 +68,10 @@ export function Features() {
   return (
     <section className="px-6 py-16">
       <div className="mx-auto max-w-[85rem]">
-        <h2 className="text-3xl font-bold text-zinc-900 mb-2">
+        <h2 className="text-3xl font-bold text-zinc-100 mb-2">
           Orchestrate agents with safety + observability
         </h2>
-        <p className="text-lg text-zinc-600 mb-12">
+        <p className="text-lg text-zinc-400 mb-12">
           One SDK. Everything you need to ship safe agents, fast.
         </p>
 
@@ -79,11 +79,11 @@ export function Features() {
           {features.map(({ icon: Icon, title, description }) => (
             <div
               key={title}
-              className="rounded-xl border border-zinc-200 bg-white p-6 shadow-sm hover:shadow-md transition-shadow"
+              className="rounded-xl border border-zinc-700 bg-zinc-800/50 p-6 shadow-sm hover:border-zinc-600 transition-colors"
             >
-              <Icon className="h-8 w-8 text-violet-600 mb-4" />
-              <h3 className="font-semibold text-zinc-900 mb-2">{title}</h3>
-              <p className="text-sm text-zinc-600">{description}</p>
+              <Icon className="h-8 w-8 text-violet-400 mb-4" />
+              <h3 className="font-semibold text-zinc-100 mb-2">{title}</h3>
+              <p className="text-sm text-zinc-400">{description}</p>
             </div>
           ))}
         </div>

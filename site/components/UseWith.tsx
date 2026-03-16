@@ -16,12 +16,12 @@ export function UseWith() {
           {providers.map((name) => (
             <div
               key={name}
-              className="rounded-lg border border-zinc-200 bg-white px-4 py-2.5 text-sm font-medium text-zinc-700 shadow-sm"
+              className="rounded-lg border border-zinc-700 bg-zinc-800 px-4 py-2.5 text-sm font-medium text-zinc-300 shadow-sm"
             >
               {name}
             </div>
           ))}
-          <span className="rounded-lg border border-zinc-200 bg-zinc-50 px-4 py-2.5 text-sm font-medium text-zinc-500">
+          <span className="rounded-lg border border-zinc-700 bg-zinc-800/50 px-4 py-2.5 text-sm font-medium text-zinc-500">
             + more
           </span>
         </div>
