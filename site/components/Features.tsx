@@ -35,12 +35,12 @@ const features = [
   {
     icon: BarChart3,
     title: "Built-in observability",
-    description: "Metrics, traces, structured logs — zero config",
+    description: "Metrics, traces, structured logs — zero config. OpenTelemetry-ready.",
   },
   {
     icon: LineChart,
     title: "OpenTelemetry export",
-    description: "Send traces to Jaeger, Datadog, Grafana, etc.",
+    description: "Export traces to Jaeger, Datadog, Grafana, Honeycomb via OpenTelemetry OTLP",
   },
   {
     icon: Bell,

@@ -22,7 +22,7 @@ export function Hero() {
           AI Agent Safety, Zero Config
         </h1>
         <p className="text-lg text-zinc-400 max-w-2xl mb-8">
-          One decorator. Full observability. Wrap any agent with input/output safety checks using NVIDIA&apos;s Nemotron Safety Guard.
+          One decorator. Full observability with OpenTelemetry. Wrap any agent with input/output safety checks using NVIDIA&apos;s Nemotron Safety Guard.
         </p>
 
         <div className="flex flex-wrap gap-3">

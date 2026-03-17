@@ -40,7 +40,7 @@ export default function QuickstartPage() {
         <li>Check user prompts before they reach your agent</li>
         <li>Verify agent outputs before they reach users</li>
         <li>Inspect tool calls before execution</li>
-        <li>Get metrics, traces, and alerts with zero config</li>
+        <li>Get metrics, traces, and alerts with zero config; export via OpenTelemetry</li>
       </ul>
 
       <h2 id="what-are-you-trying-to-do" className="text-xl font-semibold text-zinc-100 mb-4">
@@ -67,7 +67,7 @@ export default function QuickstartPage() {
         />
         <DocCard
           title="Add observability"
-          description="Get metrics, traces, and violation callbacks. Export to Jaeger, Datadog, Grafana."
+          description="Get metrics, traces, and violation callbacks. OpenTelemetry export to Jaeger, Datadog, Grafana."
           icon="chart"
           href="#wrapper"
         />
