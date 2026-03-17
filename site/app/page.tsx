@@ -1,6 +1,7 @@
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { DynamicCodeBlock } from "@/components/DynamicCodeBlock";
+import { SafetyFlowDiagram } from "@/components/SafetyFlowDiagram";
 import { UseWith } from "@/components/UseWith";
 import { Features } from "@/components/Features";
 import { CTA } from "@/components/CTA";
@@ -15,6 +16,7 @@ export default function Home() {
         <Header />
         <Hero />
         <DynamicCodeBlock />
+        <SafetyFlowDiagram />
         <UseWith />
         <Features />
         <CTA />
