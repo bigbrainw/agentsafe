@@ -88,18 +88,30 @@ const PREVIEW_CONTENT: Record<Modality, { title: string; content: React.ReactNod
   image: {
     title: "Example image input",
     content: (
-      <div className="flex items-center justify-center h-32 rounded-lg bg-zinc-800/60 border border-zinc-600">
-        <Image className="h-12 w-12 text-zinc-500" />
-        <span className="ml-2 text-zinc-500 text-sm">Image placeholder</span>
+      <div className="space-y-2 text-sm">
+        <div className="flex items-center gap-2 rounded-md bg-zinc-800/60 px-3 py-2 text-green-400/90 border border-green-500/20">
+          <Image className="h-4 w-4 shrink-0" />
+          <span>Photo of a sunny park</span>
+        </div>
+        <div className="flex items-center gap-2 rounded-md bg-zinc-800/60 px-3 py-2 text-red-400/90 border border-red-500/20">
+          <Image className="h-4 w-4 shrink-0" />
+          <span>Image with violent content</span>
+        </div>
       </div>
     ),
   },
   video: {
     title: "Example video input",
     content: (
-      <div className="flex items-center justify-center h-32 rounded-lg bg-zinc-800/60 border border-zinc-600">
-        <Video className="h-12 w-12 text-zinc-500" />
-        <span className="ml-2 text-zinc-500 text-sm">Video placeholder (MP4)</span>
+      <div className="space-y-2 text-sm">
+        <div className="flex items-center gap-2 rounded-md bg-zinc-800/60 px-3 py-2 text-green-400/90 border border-green-500/20">
+          <Video className="h-4 w-4 shrink-0" />
+          <span>Tutorial video clip</span>
+        </div>
+        <div className="flex items-center gap-2 rounded-md bg-zinc-800/60 px-3 py-2 text-red-400/90 border border-red-500/20">
+          <Video className="h-4 w-4 shrink-0" />
+          <span>Video with harmful content</span>
+        </div>
       </div>
     ),
   },
