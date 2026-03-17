@@ -15,7 +15,7 @@ export default function DocsLayout({
             className="inline-flex items-center gap-2 text-sm font-medium text-zinc-400 hover:text-zinc-100"
           >
             <ArrowLeft className="h-4 w-4" />
-            Back to agentsafe
+            Back to AgentSafe
           </Link>
         </div>
       </div>

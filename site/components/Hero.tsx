@@ -8,7 +8,7 @@ export function Hero() {
         <div className="inline-flex items-center gap-2 rounded-full border border-violet-500/50 bg-violet-950/50 px-3 py-1 mb-4">
           <span className="text-xs font-bold uppercase tracking-wide text-violet-400">New</span>
           <span className="text-sm text-zinc-300">
-            Lightweight AI agent safety with zero config
+            AgentSafe — lightweight safety with zero config
           </span>
           <ArrowRight className="h-3.5 w-3.5 text-violet-400" />
         </div>
@@ -19,7 +19,7 @@ export function Hero() {
         </div>
 
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-zinc-100 mb-3">
-          AI Agent Safety, Zero Config
+          AgentSafe, Zero Config
         </h1>
         <p className="text-lg text-zinc-400 max-w-2xl mb-8">
           One decorator. Full observability with OpenTelemetry. Wrap any agent with input/output safety checks using NVIDIA&apos;s Nemotron Safety Guard.

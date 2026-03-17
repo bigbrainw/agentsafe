@@ -4,9 +4,9 @@ import { CursorBackground } from "@/components/CursorBackground";
 import { OnThisPage } from "@/components/OnThisPage";
 
 export const metadata = {
-  title: "Quickstart — agentsafe",
+  title: "Quickstart — AgentSafe",
   description:
-    "Learn how to add safety rails to your AI agents in minutes with agentsafe.",
+    "Learn how to add safety rails to your AI agents in minutes with AgentSafe.",
 };
 
 const tocItems = [
@@ -34,7 +34,7 @@ export default function QuickstartPage() {
       <div className="flex-1 min-w-0">
       <h1 className="text-3xl font-bold text-zinc-100 mb-2">Quickstart</h1>
       <p className="text-zinc-400 mb-12">
-        Learn how to add safety rails to your AI agents in minutes. agentsafe helps you:
+        Learn how to add safety rails to your AI agents in minutes. AgentSafe helps you:
       </p>
       <ul className="list-disc list-inside text-zinc-400 mb-12 space-y-1">
         <li>Check user prompts before they reach your agent</li>

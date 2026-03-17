@@ -357,7 +357,7 @@ export function SafetyFlowDiagram() {
           How the Safety Layer Works
         </h2>
         <p className="text-zinc-400 text-center mb-8 max-w-2xl mx-auto">
-          agentsafe sits between user input and your agent. Safe requests flow through; unsafe ones are blocked before they reach the LLM.
+          AgentSafe sits between user input and your agent. Safe requests flow through; unsafe ones are blocked before they reach the LLM.
         </p>
 
         <div className="flex flex-col items-center gap-4 mb-6">

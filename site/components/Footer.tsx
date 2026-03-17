@@ -73,7 +73,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-12 pt-8 border-t border-zinc-800 text-center text-sm text-zinc-500">
-          © {new Date().getFullYear()} agentsafe contributors. All rights reserved.
+          © {new Date().getFullYear()} AgentSafe contributors. All rights reserved.
         </div>
       </div>
     </footer>

@@ -9,7 +9,7 @@ export function Header() {
       <div className="mx-auto flex items-center justify-between border transition-all duration-400 ease-out w-full max-w-[85rem] border-transparent bg-transparent px-6 py-0 pt-1.5 shadow-none backdrop-blur-none">
         <Link href="/" className="flex items-center gap-2 font-semibold text-zinc-100">
           <ShieldIcon className="h-6 w-6" />
-          agentsafe
+          AgentSafe
         </Link>
 
         <div className="hidden md:flex items-center gap-6">
